@@ -1,22 +1,30 @@
 Algoritmo "semnome"
+
 // Faça um algoritmo que gere o Fatorial de um número digitado pelo usuário.
 //Obs.: fatorial(5) = 1*2*3*4*5
 
 Var
 // Criar uma variavel fatorial
-fatorial: inteiro
-n: inteiro
-
-
+f,n,s:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval ("Digite um numero:")
+s<-1
 leia (n)
-para fatorial de 1 ate n faca
-escreval (fatorial <- )
+para f de 1 ate n faca
+s<-s*f
+escreval(s)
+
+
 
 
 
 fimpara
+
+
+
+
+
+
+
 
 Fimalgoritmo
